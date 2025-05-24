@@ -1,0 +1,5 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /pagina_test/login/
+RewriteRule ^index\.html$ /pagina_test/login/ [R=301,L]
+RewriteRule ^ index.html [L]
